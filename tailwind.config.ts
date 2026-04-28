@@ -13,15 +13,34 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['"Noto Sans"', 'system-ui', 'sans-serif'],
+        jp: ['"Noto Sans JP"', '"Noto Sans"', 'sans-serif'],
+      },
+      backgroundImage: {
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-subtle': 'var(--gradient-subtle)',
+        'gradient-cta': 'var(--gradient-cta)',
+      },
+      boxShadow: {
+        card: 'var(--shadow-card)',
+        elegant: 'var(--shadow-elegant)',
+        cta: 'var(--shadow-cta)',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        whatsapp: {
+          DEFAULT: "hsl(var(--whatsapp))",
+          foreground: "hsl(var(--whatsapp-foreground))",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
