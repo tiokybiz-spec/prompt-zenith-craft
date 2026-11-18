@@ -3,7 +3,7 @@ import { MessageCircle } from "lucide-react";
 // Sticky WhatsApp click-to-chat (mobile-first, visible on all sizes)
 const WhatsAppFab = () => {
   // Replace number when client provides one. Pre-filled message helps qualification.
-  const phone = "819000000000";
+  const phone = "818083654930";
   const text = encodeURIComponent("Hello Tioky, I'd like a quote for a vehicle from Japan auctions.");
   return (
     <a

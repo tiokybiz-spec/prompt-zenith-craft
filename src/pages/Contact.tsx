@@ -100,7 +100,7 @@ const Contact = () => {
               </p>
             </div>
             <a
-              href="https://wa.me/819000000000"
+              href="https://wa.me/818083654930"
               target="_blank"
               rel="noopener noreferrer"
               className="block rounded-xl bg-whatsapp text-whatsapp-foreground p-6 shadow-cta hover:shadow-elegant hover:-translate-y-0.5 transition-all"
